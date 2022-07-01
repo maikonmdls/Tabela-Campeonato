@@ -1,0 +1,130 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+
+th, td{
+    text-align: center;
+    
+    
+}
+
+th{
+    font-size: 13px;
+    color: #999999;
+}
+
+
+
+td{
+    font-size: 14px;
+    color: #666666;
+    width: 15px;
+}
+
+.time{
+    text-align: left;
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    
+}
+
+table, tr{
+    border: 1px solid #DDDDDD;
+    border-collapse: collapse;
+    padding: .7em;
+}
+
+#linha4, #linha16{
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.pontos{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.classificaçao-1{
+    font-weight: bold;
+    font-size: 18px;
+    color: #003366;
+}
+
+.classificaçao-2{
+    font-weight: bold;
+    font-size: 18px;
+    color: #1398BE;
+}
+
+.classificaçao-3{
+    font-weight: bold;
+    font-size: 18px;
+    color: #DE9800;
+}
+
+.classificaçao-4{
+    font-weight: bold;
+    font-size: 18px;
+    color: #CCCCCC;
+}
+
+.classificaçao-5{
+    font-weight: bold;
+    font-size: 18px;
+    color: #C91B04;
+}
+
+/* Legenda */
+
+
+
+#leg-classificaçao{
+    font-size: 10px;
+    color: #8F8F8F;
+    text-align: left;
+}
+
+#libertadores{
+    color: #003366;
+}
+
+#pre-libertadores{
+    color: #1398BE;
+}
+
+#sul-americana{
+    color: #DE9800;
+}
+
+#rebaixados{
+    color: #C91B04;
+}
+
+
+tfoot tr{
+    border: none;
+}
+
+#leg-siglas{
+    font-size: 10px;
+    color: #555555;
+    font-weight: bold;
+}
+
+tfoot #leg-siglas a{
+    font-weight: normal;
+    
+}
+
+.cor, .pontos{
+    background-color: #F7F7F7;
+}
